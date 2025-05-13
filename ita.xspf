@@ -1,0 +1,3089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Scaletta</title>
+	<trackList>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai 1 Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai 2 Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai 3 Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8</location>
+			<title>Rete 4 Ⓖ</title>
+			<duration>122880</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8</location>
+			<title>Canale 5 Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8</location>
+			<title>Italia 1 Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8</location>
+			<title>La7</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d</location>
+			<title>TV8</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://amg16146-wbdi-amg16146c1-samsung-it-1831.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-nove-samsungit/playlist.m3u8</location>
+			<title>Nove</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8</location>
+			<title>20 Mediaset Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai 4 Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8</location>
+			<title>Iris Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai 5 Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai Movie Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai Premium Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d</location>
+			<title>Cielo</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8</location>
+			<title>27 Twentyseven Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8</location>
+			<title>TV 2000</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8</location>
+			<title>La7d</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8</location>
+			<title>La 5 Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://amg16146-wbdi-amg16146c2-samsung-it-1835.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-realtime-samsungit/playlist.m3u8</location>
+			<title>Real Time</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8</location>
+			<title>QVC</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://amg16146-wbdi-amg16146c3-samsung-it-1836.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-foodnetwork-samsungit/playlist.m3u8</location>
+			<title>Food Network</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8</location>
+			<title>Cine34   Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8</location>
+			<title>Focus Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>24</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist.m3u8</location>
+			<title>RTL 102.5</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>25</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://amg16146-wbdi-amg16146c4-samsung-it-1837.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-warnertv-samsungit/playlist.m3u8</location>
+			<title>Warner TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>26</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://amg16146-wbdi-amg16146c5-samsung-it-1838.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-giallo-samsungit/playlist.m3u8</location>
+			<title>Giallo</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>27</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8</location>
+			<title>Top Crime   Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>28</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8</location>
+			<title>BOING   Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>29</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://amg16146-wbdi-amg16146c6-samsung-it-1839.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-k2-samsungit/playlist.m3u8</location>
+			<title>K2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>30</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai Gulp Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>31</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai YoYo Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>32</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://amg16146-wbdi-amg16146c7-samsung-it-1840.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-frisbee-samsungit/playlist.m3u8</location>
+			<title>Frisbee</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>33</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8</location>
+			<title>Cartoonito Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>34</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8</location>
+			<title>Super!</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>35</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai News 24 Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>36</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8</location>
+			<title>Italia 2 Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>37</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d</location>
+			<title>Sky TG24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>38</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8</location>
+			<title>TGCOM 24 Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>39</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8</location>
+			<title>DMAX</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>40</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai Storia Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>41</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8</location>
+			<title>Mediaset Extra Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>42</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://amg16146-wbdi-amg16146c9-samsung-it-1842.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-hgtv-samsungit/playlist.m3u8</location>
+			<title>HGTV – Home &amp; Garden Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>43</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai Scuola Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>44</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai Sport Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>45</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://amg16146-wbdi-amg16146c10-samsung-it-1843.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-motortrend-samsungit/playlist.m3u8</location>
+			<title>Motor Trend</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>46</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8</location>
+			<title>Sportitalia Plus</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>47</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://traveltv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8</location>
+			<title>Travel TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>48</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://donnatv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8</location>
+			<title>Donna TV Ⓢ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>49</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/h24_supertennix/manifest.m3u8</location>
+			<title>SuperTennis</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>50</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://almatv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8</location>
+			<title>Alma TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>51</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/index.m3u8</location>
+			<title>Radio 105 TV Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>52</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/index.m3u8</location>
+			<title>R101 TV Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>53</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8</location>
+			<title>Deejay TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>54</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8</location>
+			<title>RadioItaliaTV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>55</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8</location>
+			<title>Radio KISS KISS TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>56</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&amp;output=7&amp;forceUserAgent=rainet/4.0.5</location>
+			<title>Rai Radio 2 Visual Radio</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>57</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist.m3u8</location>
+			<title>RadioFreccia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>58</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream.rdstv.radio/index.m3u8</location>
+			<title>RDS Social TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>59</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist.m3u8</location>
+			<title>Radio ZETA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>60</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8</location>
+			<title>Radio TV Serie A con RDS</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>61</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://goldsattv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8</location>
+			<title>Gold TV Sat</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>62</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8</location>
+			<title>Sportitalia SOLOCALCIO</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>63</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8</location>
+			<title>BIKE Channel</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>64</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/index.m3u8</location>
+			<title>Radio Montecarlo TV Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>65</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live02-seg.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8</location>
+			<title>Virgin Radio TV Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>66</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://senato-live.morescreens.com/SENATO_1_001/playlist.m3u8</location>
+			<title>Senato TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>67</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://video-ar.radioradicale.it/diretta/camera2/playlist.m3u8</location>
+			<title>Camera dei Deputati Ⓢ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>68</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8</location>
+			<title>Rai 4K Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>69</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8</location>
+			<title>UniNettuno University TV Ⓖ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>70</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5db313b643fd8.streamlock.net/111/111/playlist.m3u8</location>
+			<title>111 Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>71</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5929b138b139d.streamlock.net/12TVParma/livestream/playlist.m3u8</location>
+			<title>12 Tv Parma</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>72</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://streamsrv2.nets-sr.com:19360/4youtv/4youtv.m3u8</location>
+			<title>4 You Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>73</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://diretta.arcapuglia.it:8080/live/abctv/index.m3u8</location>
+			<title>Abc Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>74</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://tsw.streamingwebtv24.it:1936/abchanneltv/abchanneltv/playlist.m3u8</location>
+			<title>AB Channel</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>75</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/alpaunotv/alpaunotv/playlist.m3u8</location>
+			<title>Alpauno</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>76</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f204aff97bee.streamlock.net/AltoAdigeTV/livestream/playlist.m3u8</location>
+			<title>Alto Adige Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>77</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://58f12ffd2447a.streamlock.net/Antenna2/livestream/playlist.m3u8</location>
+			<title>Antenna 2 Bergamo</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>78</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://media2021.rtvweb.com/antenna3massa/a3/playlist.m3u8</location>
+			<title>Antenna 3 Massa</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>79</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8</location>
+			<title>Antenna 3 Veneto Nord Est</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>80</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.antennasudwebtv.it:9443/hls/vod.m3u8</location>
+			<title>Antenna Sud</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>81</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.antennasudwebtv.it:9443/hls/vod92.m3u8</location>
+			<title>Antenna Sud Extra</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>82</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://video2.azotosolutions.com:1936/supertvoristano/supertvoristano/playlist.m3u8</location>
+			<title>Aristanis SuperTv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>83</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://tsw.streamingwebtv24.it:1936/artenetwork/artenetwork/playlist.m3u8</location>
+			<title>Arte Network Orler</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>84</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8</location>
+			<title>Aurora Arte</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>85</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/azzurratv/azzurratv/playlist.m3u8</location>
+			<title>Azzurra Tv Vco</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>86</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://77.68.40.210:8888/hls/basilicata1.m3u8</location>
+			<title>Basilicata 1 Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>87</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist.m3u8?DVR</location>
+			<title>Bergamo Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>88</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8</location>
+			<title>BOM Channel</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>89</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/playlist.m3u8</location>
+			<title>ByoBlu</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>90</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://srvx1.selftv.video/cafe/live/playlist.m3u8</location>
+			<title>Cafe Tv 24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>91</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://635320cd397eb.streamlock.net/live/ngrp:calabriaunolive_all/playlist.m3u8</location>
+			<title>Calabria Uno Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>92</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8</location>
+			<title>Calabria tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>93</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://nrvideo1.newradio.it:1936/desxcerbht/desxcerbht/playlist.m3u8</location>
+			<title>Canale 10</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>94</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/canale2/canale2/playlist.m3u8</location>
+			<title>Canale 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>95</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://0ff9dd7fe9b64bc08a5fc4ed525454c3.msvdn.net/live/S38994111/B7j0ql4XaZtE/playlist.m3u8</location>
+			<title>Canale 21</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>96</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://0ff9dd7fe9b64bc08a5fc4ed525454c3.msvdn.net/live/S42170132/sT6C3LFaD1iA/playlist.m3u8</location>
+			<title>Canale 21 Extra</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>97</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://wms.shared.streamshow.it:80/canale7/canale7/playlist.m3u8</location>
+			<title>Canale 7</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>98</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream.cp.ets-sistemi.it:1936/canale74/canale74/playlist.m3u8</location>
+			<title>Canale 74 Sicilia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>99</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/canale8/canale8/playlist.m3u8</location>
+			<title>Canale 8 Campania</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>100</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://ovp-live.akamaized.net/ac115_live/canale1.smil/playlist.m3u8</location>
+			<title>Canale Italia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>101</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://samson.streamerr.co:8081/carinatv/index.m3u8</location>
+			<title>Carina Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>102</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8</location>
+			<title>Casa Italia 53</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>103</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8</location>
+			<title>Casa Sanremo Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>104</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8</location>
+			<title>Castrovillari Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>105</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8</location>
+			<title>Cittaceleste Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>106</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://company.fluid.stream/CompanyTV/smil:Company_ALL.smil/playlist.m3u8</location>
+			<title>Company Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>107</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://cdn2.streamshow.it/cloud-cremona1/cremona1/playlist.m3u8</location>
+			<title>Cremona 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>108</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8</location>
+			<title>Cusano Italia Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>109</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8</location>
+			<title>Cusano News 7</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>110</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://hbbtv-server.zivoli.it:8080/hls/deltatv/deltatv/index.m3u8</location>
+			<title>Delta Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>111</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/pierstyle/pierstyle/playlist.m3u8</location>
+			<title>Deluxe 139</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>112</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/ditv80/ditv80/playlist.m3u8</location>
+			<title>Di.Tv 80</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>113</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://media2021.rtvweb.com/di_tv_92/live/playlist.m3u8</location>
+			<title>Di.Tv 92</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>114</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8</location>
+			<title>Digital Tv7 Benevento</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>115</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8</location>
+			<title>Donna Shopping Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>116</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/elivebresciatv/elivebresciatv/playlist.m3u8</location>
+			<title>E&#39;live Brescia Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>117</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://diretta.arcapuglia.it:8080/live/easytv/index.m3u8</location>
+			<title>Easy Tv Canale 190</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>118</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net:443/EntellaTV/EntellaTV/playlist.m3u8</location>
+			<title>Entella Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>119</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://ippicabetflag-live.morescreens.com/IPPICA_1_003/304p.m3u8</location>
+			<title>EQUtv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>120</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://dacastmmd.mmdlive.lldns.net/dacastmmd/2824fb123d5e44b797232c7abf8195da/playlist.m3u8</location>
+			<title>Equos Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>121</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://srvx1.selftv.video/espansione/smil:live.smil/playlist.m3u8</location>
+			<title>Espansione Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>122</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/esperiatv/esperiatv/playlist.m3u8</location>
+			<title>Esperia Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>123</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5db313b643fd8.streamlock.net/Etnachannelponte/Etnachannelponte/playlist.m3u8</location>
+			<title>Etna Espresso Channel</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>124</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8</location>
+			<title>è Tv Marche</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>125</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.ipstream.it/etv/etv.stream/playlist.m3u8</location>
+			<title>è Tv Rete7</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>126</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.ipstream.it/etvumbria/etvumbria.stream/playlist.m3u8</location>
+			<title>è Tv Umbria</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>127</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8</location>
+			<title>Euro Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>128</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://rst2.saiuzwebnetwork.it:8081/extratvlive/index.m3u8</location>
+			<title>Extra Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>129</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://bbtv.intvstream.net:3988/hybrid/play.m3u8</location>
+			<title>FM Tv Marche</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>130</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://diretta.arcapuglia.it:8080/live/fanotv/index.m3u8</location>
+			<title>Fano Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>131</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/canale157/canale157/playlist.m3u8</location>
+			<title>Fascino Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>132</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://webstream.multistream.it/memfs/a3195c96-f884-4c74-924f-2648814fc0b5.m3u8</location>
+			<title>GRP Televisione</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>133</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://cdn80-ger.azotosolutions.com:8443/cdnedge3/smil:live3.smil/playlist.m3u8</location>
+			<title>GarganoTv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>134</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8</location>
+			<title>Giornale Radio Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>135</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://media2021.rtvweb.com/giovannipaolotv/web/chunklist_w663456797.m3u8</location>
+			<title>Giovanni Paolo Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>136</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://cdn.cubws.com/live/globus.m3u8</location>
+			<title>Globus Television</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>137</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://goldtv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8</location>
+			<title>Gold Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>138</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8</location>
+			<title>GO-TV Channel</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>139</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8</location>
+			<title>GS Channel</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>140</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8</location>
+			<title>Icaro Tv Rimini</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>141</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://rst.saiuzwebnetwork.it:19360/teleidea/teleidea.m3u8</location>
+			<title>Idea Plus</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>142</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8</location>
+			<title>Italia 2 Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>143</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8</location>
+			<title>Italia 7</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>144</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/italia8prestige/italia8prestige/playlist.m3u8</location>
+			<title>Italia 8 Prestige</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>145</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream1.aswifi.it/italiachannel/stream/index.m3u8</location>
+			<title>Italia Channel</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>146</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8</location>
+			<title>Iunior Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>147</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream.cp.ets-sistemi.it:1936/laltrocorriere-tv/laltrocorriere-tv/playlist.m3u8</location>
+			<title>L&#39;Altro Corriere Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>148</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5dcabf026b188.streamlock.net/lanuovatvbas/livestream/playlist.m3u8</location>
+			<title>La Nuova Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>149</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://2-fss-1.streamhoster.com/pl_148/206202-2980948-1/playlist.m3u8</location>
+			<title>La Tenda Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>150</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://tsw.streamingwebtv24.it:1936/eslife1/eslife1/playlist.m3u8</location>
+			<title>La tr3 Marsala</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>151</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8</location>
+			<title>LaC News 24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>152</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/playlist.m3u8</location>
+			<title>LaC Tv Calabria</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>153</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://customer-yzibk50951uq418a.cloudflarestream.com/a58893dee4b9922a75e41b4ec4243f84/manifest/video.m3u8</location>
+			<title>Lab Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>154</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://laziotv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8</location>
+			<title>Lazio Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>155</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://stucazz.com:8888/hls/cronache.m3u8</location>
+			<title>Le Cronache Lucane Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>156</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8</location>
+			<title>Lira Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>157</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8</location>
+			<title>Lombardia Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>158</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://59d7d6f47d7fc.streamlock.net/loveinvenice/loveinvenice/playlist.m3u8</location>
+			<title>Love in Venice</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>159</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://cdn15.streamshow.it/cloud-lucaniatv/lucaniatv/playlist.m3u8</location>
+			<title>Lucania Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>160</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://srvx1.selftv.video/dmchannel/live/playlist.m3u8</location>
+			<title>Made in BO</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>161</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://1601580044.rsc.cdn77.org/live/_jcn_/amls:CHANNEL_2/playlist.m3u8</location>
+			<title>Maria Vision</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>162</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/GrandeItalia/GrandeItalia/playlist.m3u8</location>
+			<title>Matrix Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>163</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream1.aswifi.it/mediterraneatv/live/index.m3u8</location>
+			<title>Mediterranea Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>164</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8</location>
+			<title>Medjugorje Italia Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>165</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8</location>
+			<title>Medjugorje Tv Puglia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>166</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5db313b643fd8.streamlock.net:443/MinformoTV/MinformoTV/playlist.m3u8</location>
+			<title>Minformo Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>167</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/servizio01/servizio01/playlist.m3u8</location>
+			<title>Motori Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>168</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://www.ntimedia.it/video/S0B/S0B_master.m3u8</location>
+			<title>NTI Canale 271</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>169</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://dc3.telesveva.com:4433/news24.mp4</location>
+			<title>News24 City</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>170</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8</location>
+			<title>Nuova TV Nazionale</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>171</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://nuovatv.net:8443/tv/stream.m3u8</location>
+			<title>Nuova Tv 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>172</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://nuovatv.net:8443/tv2/stream.m3u8</location>
+			<title>Nuova Tv 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>173</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8</location>
+			<title>Nuvola Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>174</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://odeon.grupposciscione.knoxstreaming.com/live/masterpl.m3u8</location>
+			<title>Odeon 24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>175</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://videostream.isgm.it:3276/live/tvofantolive.m3u8</location>
+			<title>Ofanto Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>176</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://585b674743bbb.streamlock.net/9006/9006/playlist.m3u8</location>
+			<title>Onda Novara Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>177</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5926fc9c7c5b2.streamlock.net/9040/9040/playlist.m3u8</location>
+			<title>Onda Tv Sicilia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>178</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://178.33.224.197:1935/ondaradioweb/ondaradioweb/playlist.m3u8</location>
+			<title>Onda Web Radio</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>179</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8</location>
+			<title>Ora Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>180</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://w1.mediastreaming.it/orlertv/livestream/playlist.m3u8</location>
+			<title>Orler Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>181</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://ottop-live-meride.akamaized.net/hls/live/2039996/ch1/playlist.m3u8</location>
+			<title>Otto Channel</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>182</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8</location>
+			<title>Padre Pio Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>183</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://tsw.streamingwebtv24.it:1936/paradisetv/paradisetv/playlist.m3u8</location>
+			<title>Paradise Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>184</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/paroledivita/paroledivita/playlist.m3u8</location>
+			<title>Parole di Vita</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>185</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8</location>
+			<title>Partenope Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>186</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://iptv.peer.biz/live/peertv-it.m3u8</location>
+			<title>Peer Tv Alto Adige</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>187</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://iptv.peer.biz/live/peertv.m3u8</location>
+			<title>Peer TV Südtirol</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>188</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream1.aswifi.it/poptelevision/live/index.m3u8</location>
+			<title>Pop Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>189</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://57068da1deb21.streamlock.net/primatvnapoli/primatvnapoli/playlist.m3u8</location>
+			<title>Prima Tv Napoli</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>190</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5db313b643fd8.streamlock.net/PrimaTV/PrimaTV/playlist.m3u8</location>
+			<title>Prima Tv Sicilia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>191</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/primafree/primafree/playlist.m3u8</location>
+			<title>PrimaFREE</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>192</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8</location>
+			<title>Primantenna Torino</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>193</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8</location>
+			<title>Primocanale</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>194</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8</location>
+			<title>Promovideo Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>195</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://live.mariatvcdn.com/dialogos/171e41deedf405f10c7dd6311387fb43.sdp/playlist.m3u8</location>
+			<title>Quarto Canale Flegreo</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>196</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream.mariatvcdn.com/telemistrettaradio/900bfcc0f9012ea272584fd5ff5281b8.sdp/playlist.m3u8</location>
+			<title>Radio 3M InBlu</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>197</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/canale51/canale51/chunklist_w1193883900.m3u8</location>
+			<title>Radio 51 Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>198</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://tvd-bk.fluid.stream/RadioBirikinaTV/livestream/chunklist_w84398277.m3u8</location>
+			<title>Radio Birikina Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>199</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8</location>
+			<title>Radio Bruno Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>200</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://str48.fluid.stream/RadioIbizaTV/livestream/playlist.m3u8</location>
+			<title>Radio Ibiza</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>201</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://media.velcom.it:8081/RadioImmagineTV/index.fmp4.m3u8</location>
+			<title>Radio Immagine Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>202</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://585b674743bbb.streamlock.net/9054/9054/playlist.m3u8</location>
+			<title>Radio Italia Cina Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>203</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://router.xdevel.com/video0s975360-67/stream/playlist_dvr.m3u8</location>
+			<title>Radio Libertà</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>204</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8</location>
+			<title>Radio m2o Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>205</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://648026e87a75e.streamlock.net/rmktv/rmktv/playlist.m3u8</location>
+			<title>Radio Monte Kronio Tv (R.M.K.)</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>206</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8</location>
+			<title>Radio Norba Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>207</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://tvd-piter.fluid.stream/RadioPiterpanTV/livestream/chunklist_w1866496033.m3u8</location>
+			<title>Radio Piter Pan Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>208</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://200912.global.ssl.fastly.net/646b335e2291a2022444bb7c/live_22f84390fe1411ed919df3da85a483cc/rewind-14400.m3u8</location>
+			<title>Radio Radio Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>209</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream7.zivoli.it/radiosatv/radiosatv/playlist.m3u8</location>
+			<title>Radio Radiosa Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>210</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://585b674743bbb.streamlock.net/9044/9044/playlist.m3u8</location>
+			<title>Radio Roma</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>211</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5926fc9c7c5b2.streamlock.net/rtfeunawfu/rtfeunawfu/playlist.m3u8</location>
+			<title>Radio Roma Television</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>212</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/RanFriul/RanFriul/playlist.m3u8</location>
+			<title>Ran Friul</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>213</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://rst2.saiuzwebnetwork.it:8081/rdetrieste/index.m3u8</location>
+			<title>RDE Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>214</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8</location>
+			<title>Reggio Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>215</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/reitv/reitv/playlist.m3u8</location>
+			<title>Rei Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>216</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live1.giocabet.tv/stream/6/index.m3u8</location>
+			<title>Rete 55</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>217</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8</location>
+			<title>Rete 8 Vga</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>218</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/rete8/rete8/playlist.m3u8</location>
+			<title>Rete 8</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>219</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8</location>
+			<title>Rete 8 Sport</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>220</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://sb.top-ix.org/retebiella/streaming/playlist.m3u8</location>
+			<title>Rete Biella Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>221</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5db313b643fd8.streamlock.net/rete/rete/playlist.m3u8</location>
+			<title>Rete Mia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>222</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8</location>
+			<title>Rete Oro Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>223</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8</location>
+			<title>Rete Sole</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>224</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8</location>
+			<title>Rete Tv Italia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>225</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8</location>
+			<title>Rete Veneta</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>226</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8</location>
+			<title>Roma Tv 82</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>227</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8</location>
+			<title>Rossini Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>228</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://msh0232.stream.seeweb.it/live/stream00.sdp/playlist.m3u8</location>
+			<title>RTC Quarta Rete</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>229</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://w1.mediastreaming.it/calabriachannel/livestream/playlist.m3u8</location>
+			<title>RTC Telecalabria</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>230</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream.ets-sistemi.it:8081/rticalabria/index.m3u8</location>
+			<title>RTI Calabria</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>231</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S12772175/FmIo5I5kmwTy/playlist_video.m3u8</location>
+			<title>RTL 102.5 + Plus</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>232</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/rtm/rtm/playlist.m3u8</location>
+			<title>RTM Manduria</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>233</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5e73cf528f404.streamlock.net/RTR99TV/livestream/playlist.m3u8</location>
+			<title>RTR99 Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>234</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8</location>
+			<title>Rtp Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>235</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f204aff97bee.streamlock.net/RTTRlive/livestream/playlist.m3u8</location>
+			<title>Rttr</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>236</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/playlist_dvr.m3u8</location>
+			<title>Rtv 38 Toscana</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>237</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://media.velcom.it:1935/sl48/sl48/playlist.m3u8</location>
+			<title>SL 48 Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>238</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8</location>
+			<title>ST Europe Channel</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>239</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/playlist.m3u8</location>
+			<title>Sardegna 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>240</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream1.aswifi.it/settv/live/index.m3u8</location>
+			<title>Set Tv Cilento</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>241</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream10.xdevel.com/video0s977089-1792/stream/playlist.m3u8</location>
+			<title>Sesta Rete</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>242</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/sicilia24/sicilia24/playlist.m3u8</location>
+			<title>Sicilia 24 Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>243</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream9.xdevel.com/video0s976441-1226/stream/playlist.m3u8</location>
+			<title>Sicilia Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>244</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://router.xdevel.com/video0s976727-1441/stream/playlist.m3u8</location>
+			<title>Sienatv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>245</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://bild-und-ton.stream/sophiatv-it/smil:sophia-tv-it.smil/playlist.m3u8</location>
+			<title>Sophia Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>246</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://proxy.media.convergenze.it/stiletv/streams/oQOFd7JglHjO1631525551097.m3u8</location>
+			<title>Stiletv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>247</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d39900ebfb8.streamlock.net/SuperJtv/SuperJtv/playlist.m3u8</location>
+			<title>Super J Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>248</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8</location>
+			<title>Super Six</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>249</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8</location>
+			<title>Supertv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>250</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://t9tv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8</location>
+			<title>T9</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>251</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream7.livinlive.it/trc/trc/playlist.m3u8</location>
+			<title>TRC Santeramo</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>252</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8</location>
+			<title>TRL Tele Radio Leo</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>253</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream.mariatvcdn.com/tsd/7c59373bfdb38201b9215ff86f0ce6af.sdp/playlist.m3u8</location>
+			<title>TSD Tv Arezzo(Tele San Domenico)</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>254</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/mono.m3u8</location>
+			<title>TVL (TV Libera Pistoia)</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>255</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream10.xdevel.com/video1s977294-1864/stream/playlist.m3u8</location>
+			<title>Tcf Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>256</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://tbn-jw.cdn.vustreams.com/live/tci/live.isml/2b7d53c5-b504-4d26-b25f-a70deb8d0faf.m3u8</location>
+			<title>Tci</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>257</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://m.iostream.it/hls/teatrotv/teatrotv.m3u8</location>
+			<title>Teatro Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>258</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://lostream.it/hls/telea/video.m3u8</location>
+			<title>Tele A</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>259</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://uk4.streamingpulse.com:1935/TeleabruzzoTV/TeleabruzzoTV/playlist.m3u8</location>
+			<title>Tele Abruzzo Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>260</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5db313b643fd8.streamlock.net/teleacras/teleacras/playlist.m3u8</location>
+			<title>Tele Acras</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>261</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5e73cf528f404.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8</location>
+			<title>Tele Arena</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>262</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://w1.mediastreaming.it/telebari/livestream/playlist.m3u8</location>
+			<title>Tele Bari</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>263</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.mariatvcdn.com/telebelluno/a3b80388da9801906adf885282e73bc3.sdp/mono.m3u8</location>
+			<title>Tele Belluno</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>264</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream7.xdevel.com/video0s976425-1244/stream/playlist_dvr.m3u8</location>
+			<title>Tele Boario</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>265</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://playerssl.telemia.tv/fileadmin/hls/Telebruzzano/telebruzzano_mediachunks.m3u8</location>
+			<title>Tele Bruzzano</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>266</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://fms.tvavicenza.it:1935/telechiara/diretta/playlist.m3u8</location>
+			<title>Tele Chiara</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>267</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8</location>
+			<title>Telecolor</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>268</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://nrvideo1.newradio.it/euhsbdamnx/euhsbdamnx/playlist.m3u8</location>
+			<title>Tele Cupole</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>269</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5e73cf528f404.streamlock.net/TeleEstense/livestream/playlist.m3u8</location>
+			<title>Tele Estense</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>270</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/telefoggia/telefoggia/playlist.m3u8</location>
+			<title>Tele Foggia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>271</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5757bf2aa08e42248fb9b9d620f5d900.msvdn.net/live/S11646715/pE3ax0lT0rBd/playlist.m3u8</location>
+			<title>Tele Friuli</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>272</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://rst.saiuzwebnetwork.it:8081/teleischia/index.m3u8</location>
+			<title>Tele Ischia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>273</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://59d7d6f47d7fc.streamlock.net/telejonio/telejonio/playlist.m3u8</location>
+			<title>Tele Jonio</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>274</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.liberta.it/hls/liberta.m3u8</location>
+			<title>Tele Liberta&#39; HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>275</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/teleliguriasud/teleliguriasud/playlist.m3u8</location>
+			<title>Tele Liguria Sud</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>276</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5ce9406b73c33.streamlock.net/TeleMantova/livestream/playlist.m3u8</location>
+			<title>Tele Mantova</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>277</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8</location>
+			<title>Tele Mia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>278</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8</location>
+			<title>Tele Mia Extra</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>279</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8</location>
+			<title>Tele Mistretta</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>280</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://185.202.128.1:1935/Telemolise4K/Telemolise4K/playlist.m3u8</location>
+			<title>Tele Molise</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>281</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/telenord/telenord/playlist.m3u8</location>
+			<title>Tele Nord Genova</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>282</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://13574-8.b.cdn12.com/hls/f099fa8883.ulive/_c/master.m3u8</location>
+			<title>Tele Nostra</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>283</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream9.xdevel.com/video0s976532-1292/stream/playlist.m3u8</location>
+			<title>Tele Occidente</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>284</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://1se1.troydesign.eu/np_teleoltre/_definst_/channel1_np_teleoltre/playlist.m3u8?ext=.m3u8</location>
+			<title>Tele Oltre</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>285</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://648026e87a75e.streamlock.net/teleone/teleone/playlist.m3u8</location>
+			<title>Tele One</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>286</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.mariatvcdn.com/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/mono.m3u8</location>
+			<title>Tele Pace 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>287</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.mariatvcdn.com/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/mono.m3u8</location>
+			<title>Tele Pace 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>288</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.mariatvcdn.com/teleradiopace3/d2274c22e9ee09eb2eda01ed0496f8f5.sdp/mono.m3u8</location>
+			<title>Tele Pace 3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>289</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.mariatvcdn.com/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/mono.m3u8</location>
+			<title>Tele Pace 4</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>290</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.mariatvcdn.com/teleradiopace6/d289fe76f16ad32afec471ea1b941583.sdp/index.m3u8</location>
+			<title>Tele Pace News</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>291</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.mariatvcdn.com/mariatvpoint/d36592901d5429dd7f9ec1e7bbeda8c2.sdp/index.m3u8</location>
+			<title>Tele Pace Roma</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>292</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8</location>
+			<title>Tele Pace Trento</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>293</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.mariatvcdn.com/TelepaceVerona/a9027aba28cf4b54d10aedc38b0df192.sdp/index.m3u8</location>
+			<title>Tele Pace Verona</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>294</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://wms.shared.streamshow.it:1935/telepavia/telepavia/live.m3u8</location>
+			<title>Tele Pavia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>295</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://flash2.xdevel.com/telepegasocanale812/telepegasocanale812/playlist.m3u8</location>
+			<title>Tele Pegaso</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>296</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream3.xdevel.com/video0s975441-151/stream/playlist_dvr.m3u8</location>
+			<title>Tele Piadena</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>297</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://video.wifi4all.it/telepn/telepn.m3u8</location>
+			<title>Tele Pordenone</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>298</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://wms.shared.streamshow.it/telequattro/telequattro/playlist.m3u8</location>
+			<title>Tele Quattro Trieste</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>299</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://rst.saiuzwebnetwork.it:19360/teleradioercolano-1/teleradioercolano-1.m3u8</location>
+			<title>Tele Radio Ercolano</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>300</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://flash2.xdevel.com/ortetv/ortetv/index.m3u8</location>
+			<title>Tele Radio Orte</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>301</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5db313b643fd8.streamlock.net/teleradiosciaccatv/teleradiosciaccatv/playlist.m3u8</location>
+			<title>Tele Radio Sciacca</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>302</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://www.telesirio.it/live/stream.m3u8</location>
+			<title>Tele Sirio</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>303</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://rtm.cyberspazio.cloud:5443/LiveApp/streams/049229794390395765037801.m3u8</location>
+			<title>Tele Spazio Messina</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>304</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/telesud/telesud/playlist.m3u8</location>
+			<title>Tele Sud Puglia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>305</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/rs2/rs2/playlist.m3u8</location>
+			<title>Tele Tricolore</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>306</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://600f07e114306.streamlock.net/TT_TELETUTTO/smil:TT.smil/playlist.m3u8</location>
+			<title>Tele Tutto</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>307</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://600f07e114306.streamlock.net/TT2_TELETUTTO/livestream/playlist.m3u8</location>
+			<title>Tele Tutto 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>308</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://600f07e114306.streamlock.net/TT24_TELETUTTO/livestream/playlist.m3u8</location>
+			<title>Tele Tutto 24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>309</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/televenezia/televenezia/playlist.m3u8</location>
+			<title>Tele Venezia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>310</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/tva/tva/playlist.m3u8</location>
+			<title>Tele Video Agrigento (T.V.A.)</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>311</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://57068da1deb21.streamlock.net/teletv8/teletv8/playlist.m3u8</location>
+			<title>Tele8 Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>312</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/teleambiente2024/teleambiente2024/playlist.m3u8</location>
+			<title>TeleAmbiente</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>313</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/telecampione/telecampione/playlist.m3u8</location>
+			<title>Telecampione</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>314</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://tango.wifi4all.it/telecitta/telecitta.m3u8</location>
+			<title>Telecittà Padova</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>315</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/telecitylombardia/telecitylombardia/playlist.m3u8</location>
+			<title>Telecity Lombardia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>316</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/telecitypiemonte/telecitypiemonte/playlist.m3u8</location>
+			<title>Telecity Piemonte</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>317</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/telecityvda/telecityvda/playlist.m3u8</location>
+			<title>Telecity Valle D&#39;Aosta</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>318</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8</location>
+			<title>TeleCostaSmeralda</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>319</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/telegenova/telegenova/playlist.m3u8</location>
+			<title>Telegenova</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>320</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/teleiblea/teleiblea/playlist.m3u8</location>
+			<title>Teleiblea</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>321</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.softwarecreation.it/teleitalia/teleitalia/playlist.m3u8</location>
+			<title>Teleitalia 41</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>322</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://telejato.liberotratto.com/hls/stream.m3u8</location>
+			<title>Telejato</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>323</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://wms.shared.streamshow.it:1935/teleleonessa/teleleonessa/live.m3u8</location>
+			<title>Teleleonessa</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>324</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/telemajg/telemajg/playlist.m3u8</location>
+			<title>TeleMajg</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>325</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/telenova/telenova/playlist.m3u8</location>
+			<title>Telenova</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>326</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://58d921499d3d3.streamlock.net/TeleRama/livestream/playlist.m3u8</location>
+			<title>Telerama</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>327</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.softwarecreation.it/TR118/TR118/playlist.m3u8</location>
+			<title>TeleRegione</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>328</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.antennasudwebtv.it:9443/hls/vodtele.m3u8</location>
+			<title>TeleRegione Color</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>329</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/galluralive/galluralive/playlist.m3u8</location>
+			<title>TeleRegione Live</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>330</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://router.xdevel.com/video0s86-21/stream/playlist.m3u8</location>
+			<title>TeleRent 7Gold</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>331</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8</location>
+			<title>Telereporter</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>332</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://livetr.teleromagna.it/teleromagna/live/playlist.m3u8</location>
+			<title>Teleromagna</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>333</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://livetr.teleromagna.it/mia/live/playlist.m3u8</location>
+			<title>Teleromagna 24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>334</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://57068da1deb21.streamlock.net/teletibur/teletibur/playlist.m3u8</location>
+			<title>TeleRomaDue</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>335</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/telesudtrapani/telesudtrapani/playlist.m3u8</location>
+			<title>Telesud Trapani</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>336</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://dc3.telesveva.com:4433/cmaf/livetv/index.mpd</location>
+			<title>Telesveva</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>337</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream.cp.ets-sistemi.it:1936/teleuniverso/teleuniverso/playlist.m3u8</location>
+			<title>Teleuniverso</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>338</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://64b16f23efbee.streamlock.net/televallo/televallo/playlist.m3u8</location>
+			<title>Televallo Trapani</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>339</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://router.xdevel.com/video0s976570-1326/stream/playlist_dvr.m3u8</location>
+			<title>TG Norba 24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>340</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/tltmolise/tltmolise/playlist.m3u8</location>
+			<title>TLT Molise</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>341</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://sportitaliaamd.akamaized.net/live/Telelombardia/hls/1CCCD0BCA2F9C979BC0632230F8E31EAEA41562B/index.m3u8</location>
+			<title>Top Calcio 24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>342</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream4.xdevel.com/video0s976062-1263/stream/playlist_dvr.m3u8</location>
+			<title>Tremedia Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>343</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8</location>
+			<title>Trentino Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>344</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/chunks.m3u8</location>
+			<title>Tuscia Sabina 2000Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>345</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/tv12/tv12/playlist.m3u8</location>
+			<title>Tv 12</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>346</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://tv.radiosaiuz.com:3836/live/campiflegreilive.m3u8</location>
+			<title>Tv Campi Flegrei</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>347</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://diretta.arcapuglia.it:8080/live/teleluna/index.m3u8</location>
+			<title>Tv Luna Napoli</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>348</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.mariatvcdn.com/tvprato/2db0dd5674586686a867ec52c3aa8e06.sdp/mono.m3u8</location>
+			<title>Tv Prato</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>349</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://59d7d6f47d7fc.streamlock.net/tvqui/tvqui/playlist.m3u8</location>
+			<title>Tv Qui Modena</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>350</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://ftp.tiscali.it/francescovernata/TVUNO/monoscopioTvUNOint-1.wmv</location>
+			<title>Tv Uno</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>351</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream1.aswifi.it/radioyes/live/index.m3u8</location>
+			<title>Tv Yes</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>352</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://fms.tvavicenza.it:1935/live/diretta_1/playlist.m3u8</location>
+			<title>Tva Vicenza</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>353</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream2.xdevel.com/video1s86-22/stream/playlist_dvr.m3u8</location>
+			<title>Tvm Palermo</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>354</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://cdn107-ita.azotosolutions.com:8443/cdnedge4/smil:live4.smil/playlist.m3u8</location>
+			<title>Tvr Xenon</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>355</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://cdn8.streamshow.it/cloud-tvrs/tvrs/playlist.m3u8</location>
+			<title>Tvrs Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>356</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://diretta.teleterni.it:8080//show/show.m3u8</location>
+			<title>Umbria+ TRT</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>357</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8</location>
+			<title>Umbria Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>358</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream1.aswifi.it/unotv/live/index.m3u8</location>
+			<title>Uno Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>359</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://cdn.uno4.it/index.m3u8</location>
+			<title>Uno4 Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>360</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://wms.shared.streamshow.it/veratv/veratv/playlist.m3u8</location>
+			<title>Vera Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>361</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://live.ipstream.it/vb33/vb33.stream/playlist.m3u8</location>
+			<title>VB33</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>362</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/playlist.m3u8</location>
+			<title>Video Calabria</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>363</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://bfbe5f347ac4424faf719dda285bc39e.msvdn.net/live/S54897858/4gWO7tTzpK3N/playlist.m3u8</location>
+			<title>Video Mediterraneo</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>364</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://videonola.aswifi.it/videonolaabr/live.m3u8</location>
+			<title>Video Nola</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>365</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/playlist.m3u8</location>
+			<title>Video Regione Sicilia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>366</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream9.xdevel.com/video0s976556-1321/stream/playlist.m3u8</location>
+			<title>Video Star Tv Sicilia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>367</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://streamingvideo.auranex.cloud/memfs/70baacad-47c6-41a6-aee0-86530c31e080.m3u8</location>
+			<title>Video Touring Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>368</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://livestreaming.videolina.it/live/Videolina/playlist.m3u8</location>
+			<title>Videolina</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>369</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://ed04.top-ix.org/avtvlive/videonovara/streaming/playlist.m3u8</location>
+			<title>Videonovara</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>370</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://rst2.saiuzwebnetwork.it:8081/vtccarnia/index.m3u8</location>
+			<title>Videotelecarnia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>371</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/vintageradiotv/vintageradiotv/playlist.m3u8</location>
+			<title>Vintage Radio Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>372</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5db313b643fd8.streamlock.net/Vuemme/Vuemme/playlist.m3u8</location>
+			<title>Vuemme Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>373</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://www.webcomiptv.it/mistserver/passionelotto/index.m3u8</location>
+			<title>Webcom Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>374</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5db313b643fd8.streamlock.net/WLTV/WLTV/playlist.m3u8</location>
+			<title>WLTV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>375</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream.wired-shop.com/hls/yviitv.m3u8</location>
+			<title>Yvii Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>376</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/zerounotvmusic/zerounotvmusic/playlist.m3u8</location>
+			<title>Zerouno Tv Music</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>377</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://5f22d76e220e1.streamlock.net/01news/01news/playlist.m3u8</location>
+			<title>Zerouno Tv News</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>378</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://www.youtube.com/radiocolonna/live</location>
+			<title>Radio Colonna Tv Ⓨ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>379</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://www.youtube.com/user/euronewsit/live</location>
+			<title>Euronews Italian Ⓨ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>380</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://www.youtube.com/user/trmh24/live</location>
+			<title>TRM h24 Ⓨ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>381</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://www.twitch.tv/antennasicilia</location>
+			<title>Antenna Sicilia Ⓣ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>382</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://www.twitch.tv/teleroma_56</location>
+			<title>Teleroma 56 Ⓣ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>383</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://www.twitch.tv/teleradiostereo</location>
+			<title>TeleRadioStereo Ⓣ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>384</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+		<vlc:item tid="10"/>
+		<vlc:item tid="11"/>
+		<vlc:item tid="12"/>
+		<vlc:item tid="13"/>
+		<vlc:item tid="14"/>
+		<vlc:item tid="15"/>
+		<vlc:item tid="16"/>
+		<vlc:item tid="17"/>
+		<vlc:item tid="18"/>
+		<vlc:item tid="19"/>
+		<vlc:item tid="20"/>
+		<vlc:item tid="21"/>
+		<vlc:item tid="22"/>
+		<vlc:item tid="23"/>
+		<vlc:item tid="24"/>
+		<vlc:item tid="25"/>
+		<vlc:item tid="26"/>
+		<vlc:item tid="27"/>
+		<vlc:item tid="28"/>
+		<vlc:item tid="29"/>
+		<vlc:item tid="30"/>
+		<vlc:item tid="31"/>
+		<vlc:item tid="32"/>
+		<vlc:item tid="33"/>
+		<vlc:item tid="34"/>
+		<vlc:item tid="35"/>
+		<vlc:item tid="36"/>
+		<vlc:item tid="37"/>
+		<vlc:item tid="38"/>
+		<vlc:item tid="39"/>
+		<vlc:item tid="40"/>
+		<vlc:item tid="41"/>
+		<vlc:item tid="42"/>
+		<vlc:item tid="43"/>
+		<vlc:item tid="44"/>
+		<vlc:item tid="45"/>
+		<vlc:item tid="46"/>
+		<vlc:item tid="47"/>
+		<vlc:item tid="48"/>
+		<vlc:item tid="49"/>
+		<vlc:item tid="50"/>
+		<vlc:item tid="51"/>
+		<vlc:item tid="52"/>
+		<vlc:item tid="53"/>
+		<vlc:item tid="54"/>
+		<vlc:item tid="55"/>
+		<vlc:item tid="56"/>
+		<vlc:item tid="57"/>
+		<vlc:item tid="58"/>
+		<vlc:item tid="59"/>
+		<vlc:item tid="60"/>
+		<vlc:item tid="61"/>
+		<vlc:item tid="62"/>
+		<vlc:item tid="63"/>
+		<vlc:item tid="64"/>
+		<vlc:item tid="65"/>
+		<vlc:item tid="66"/>
+		<vlc:item tid="67"/>
+		<vlc:item tid="68"/>
+		<vlc:item tid="69"/>
+		<vlc:item tid="70"/>
+		<vlc:item tid="71"/>
+		<vlc:item tid="72"/>
+		<vlc:item tid="73"/>
+		<vlc:item tid="74"/>
+		<vlc:item tid="75"/>
+		<vlc:item tid="76"/>
+		<vlc:item tid="77"/>
+		<vlc:item tid="78"/>
+		<vlc:item tid="79"/>
+		<vlc:item tid="80"/>
+		<vlc:item tid="81"/>
+		<vlc:item tid="82"/>
+		<vlc:item tid="83"/>
+		<vlc:item tid="84"/>
+		<vlc:item tid="85"/>
+		<vlc:item tid="86"/>
+		<vlc:item tid="87"/>
+		<vlc:item tid="88"/>
+		<vlc:item tid="89"/>
+		<vlc:item tid="90"/>
+		<vlc:item tid="91"/>
+		<vlc:item tid="92"/>
+		<vlc:item tid="93"/>
+		<vlc:item tid="94"/>
+		<vlc:item tid="95"/>
+		<vlc:item tid="96"/>
+		<vlc:item tid="97"/>
+		<vlc:item tid="98"/>
+		<vlc:item tid="99"/>
+		<vlc:item tid="100"/>
+		<vlc:item tid="101"/>
+		<vlc:item tid="102"/>
+		<vlc:item tid="103"/>
+		<vlc:item tid="104"/>
+		<vlc:item tid="105"/>
+		<vlc:item tid="106"/>
+		<vlc:item tid="107"/>
+		<vlc:item tid="108"/>
+		<vlc:item tid="109"/>
+		<vlc:item tid="110"/>
+		<vlc:item tid="111"/>
+		<vlc:item tid="112"/>
+		<vlc:item tid="113"/>
+		<vlc:item tid="114"/>
+		<vlc:item tid="115"/>
+		<vlc:item tid="116"/>
+		<vlc:item tid="117"/>
+		<vlc:item tid="118"/>
+		<vlc:item tid="119"/>
+		<vlc:item tid="120"/>
+		<vlc:item tid="121"/>
+		<vlc:item tid="122"/>
+		<vlc:item tid="123"/>
+		<vlc:item tid="124"/>
+		<vlc:item tid="125"/>
+		<vlc:item tid="126"/>
+		<vlc:item tid="127"/>
+		<vlc:item tid="128"/>
+		<vlc:item tid="129"/>
+		<vlc:item tid="130"/>
+		<vlc:item tid="131"/>
+		<vlc:item tid="132"/>
+		<vlc:item tid="133"/>
+		<vlc:item tid="134"/>
+		<vlc:item tid="135"/>
+		<vlc:item tid="136"/>
+		<vlc:item tid="137"/>
+		<vlc:item tid="138"/>
+		<vlc:item tid="139"/>
+		<vlc:item tid="140"/>
+		<vlc:item tid="141"/>
+		<vlc:item tid="142"/>
+		<vlc:item tid="143"/>
+		<vlc:item tid="144"/>
+		<vlc:item tid="145"/>
+		<vlc:item tid="146"/>
+		<vlc:item tid="147"/>
+		<vlc:item tid="148"/>
+		<vlc:item tid="149"/>
+		<vlc:item tid="150"/>
+		<vlc:item tid="151"/>
+		<vlc:item tid="152"/>
+		<vlc:item tid="153"/>
+		<vlc:item tid="154"/>
+		<vlc:item tid="155"/>
+		<vlc:item tid="156"/>
+		<vlc:item tid="157"/>
+		<vlc:item tid="158"/>
+		<vlc:item tid="159"/>
+		<vlc:item tid="160"/>
+		<vlc:item tid="161"/>
+		<vlc:item tid="162"/>
+		<vlc:item tid="163"/>
+		<vlc:item tid="164"/>
+		<vlc:item tid="165"/>
+		<vlc:item tid="166"/>
+		<vlc:item tid="167"/>
+		<vlc:item tid="168"/>
+		<vlc:item tid="169"/>
+		<vlc:item tid="170"/>
+		<vlc:item tid="171"/>
+		<vlc:item tid="172"/>
+		<vlc:item tid="173"/>
+		<vlc:item tid="174"/>
+		<vlc:item tid="175"/>
+		<vlc:item tid="176"/>
+		<vlc:item tid="177"/>
+		<vlc:item tid="178"/>
+		<vlc:item tid="179"/>
+		<vlc:item tid="180"/>
+		<vlc:item tid="181"/>
+		<vlc:item tid="182"/>
+		<vlc:item tid="183"/>
+		<vlc:item tid="184"/>
+		<vlc:item tid="185"/>
+		<vlc:item tid="186"/>
+		<vlc:item tid="187"/>
+		<vlc:item tid="188"/>
+		<vlc:item tid="189"/>
+		<vlc:item tid="190"/>
+		<vlc:item tid="191"/>
+		<vlc:item tid="192"/>
+		<vlc:item tid="193"/>
+		<vlc:item tid="194"/>
+		<vlc:item tid="195"/>
+		<vlc:item tid="196"/>
+		<vlc:item tid="197"/>
+		<vlc:item tid="198"/>
+		<vlc:item tid="199"/>
+		<vlc:item tid="200"/>
+		<vlc:item tid="201"/>
+		<vlc:item tid="202"/>
+		<vlc:item tid="203"/>
+		<vlc:item tid="204"/>
+		<vlc:item tid="205"/>
+		<vlc:item tid="206"/>
+		<vlc:item tid="207"/>
+		<vlc:item tid="208"/>
+		<vlc:item tid="209"/>
+		<vlc:item tid="210"/>
+		<vlc:item tid="211"/>
+		<vlc:item tid="212"/>
+		<vlc:item tid="213"/>
+		<vlc:item tid="214"/>
+		<vlc:item tid="215"/>
+		<vlc:item tid="216"/>
+		<vlc:item tid="217"/>
+		<vlc:item tid="218"/>
+		<vlc:item tid="219"/>
+		<vlc:item tid="220"/>
+		<vlc:item tid="221"/>
+		<vlc:item tid="222"/>
+		<vlc:item tid="223"/>
+		<vlc:item tid="224"/>
+		<vlc:item tid="225"/>
+		<vlc:item tid="226"/>
+		<vlc:item tid="227"/>
+		<vlc:item tid="228"/>
+		<vlc:item tid="229"/>
+		<vlc:item tid="230"/>
+		<vlc:item tid="231"/>
+		<vlc:item tid="232"/>
+		<vlc:item tid="233"/>
+		<vlc:item tid="234"/>
+		<vlc:item tid="235"/>
+		<vlc:item tid="236"/>
+		<vlc:item tid="237"/>
+		<vlc:item tid="238"/>
+		<vlc:item tid="239"/>
+		<vlc:item tid="240"/>
+		<vlc:item tid="241"/>
+		<vlc:item tid="242"/>
+		<vlc:item tid="243"/>
+		<vlc:item tid="244"/>
+		<vlc:item tid="245"/>
+		<vlc:item tid="246"/>
+		<vlc:item tid="247"/>
+		<vlc:item tid="248"/>
+		<vlc:item tid="249"/>
+		<vlc:item tid="250"/>
+		<vlc:item tid="251"/>
+		<vlc:item tid="252"/>
+		<vlc:item tid="253"/>
+		<vlc:item tid="254"/>
+		<vlc:item tid="255"/>
+		<vlc:item tid="256"/>
+		<vlc:item tid="257"/>
+		<vlc:item tid="258"/>
+		<vlc:item tid="259"/>
+		<vlc:item tid="260"/>
+		<vlc:item tid="261"/>
+		<vlc:item tid="262"/>
+		<vlc:item tid="263"/>
+		<vlc:item tid="264"/>
+		<vlc:item tid="265"/>
+		<vlc:item tid="266"/>
+		<vlc:item tid="267"/>
+		<vlc:item tid="268"/>
+		<vlc:item tid="269"/>
+		<vlc:item tid="270"/>
+		<vlc:item tid="271"/>
+		<vlc:item tid="272"/>
+		<vlc:item tid="273"/>
+		<vlc:item tid="274"/>
+		<vlc:item tid="275"/>
+		<vlc:item tid="276"/>
+		<vlc:item tid="277"/>
+		<vlc:item tid="278"/>
+		<vlc:item tid="279"/>
+		<vlc:item tid="280"/>
+		<vlc:item tid="281"/>
+		<vlc:item tid="282"/>
+		<vlc:item tid="283"/>
+		<vlc:item tid="284"/>
+		<vlc:item tid="285"/>
+		<vlc:item tid="286"/>
+		<vlc:item tid="287"/>
+		<vlc:item tid="288"/>
+		<vlc:item tid="289"/>
+		<vlc:item tid="290"/>
+		<vlc:item tid="291"/>
+		<vlc:item tid="292"/>
+		<vlc:item tid="293"/>
+		<vlc:item tid="294"/>
+		<vlc:item tid="295"/>
+		<vlc:item tid="296"/>
+		<vlc:item tid="297"/>
+		<vlc:item tid="298"/>
+		<vlc:item tid="299"/>
+		<vlc:item tid="300"/>
+		<vlc:item tid="301"/>
+		<vlc:item tid="302"/>
+		<vlc:item tid="303"/>
+		<vlc:item tid="304"/>
+		<vlc:item tid="305"/>
+		<vlc:item tid="306"/>
+		<vlc:item tid="307"/>
+		<vlc:item tid="308"/>
+		<vlc:item tid="309"/>
+		<vlc:item tid="310"/>
+		<vlc:item tid="311"/>
+		<vlc:item tid="312"/>
+		<vlc:item tid="313"/>
+		<vlc:item tid="314"/>
+		<vlc:item tid="315"/>
+		<vlc:item tid="316"/>
+		<vlc:item tid="317"/>
+		<vlc:item tid="318"/>
+		<vlc:item tid="319"/>
+		<vlc:item tid="320"/>
+		<vlc:item tid="321"/>
+		<vlc:item tid="322"/>
+		<vlc:item tid="323"/>
+		<vlc:item tid="324"/>
+		<vlc:item tid="325"/>
+		<vlc:item tid="326"/>
+		<vlc:item tid="327"/>
+		<vlc:item tid="328"/>
+		<vlc:item tid="329"/>
+		<vlc:item tid="330"/>
+		<vlc:item tid="331"/>
+		<vlc:item tid="332"/>
+		<vlc:item tid="333"/>
+		<vlc:item tid="334"/>
+		<vlc:item tid="335"/>
+		<vlc:item tid="336"/>
+		<vlc:item tid="337"/>
+		<vlc:item tid="338"/>
+		<vlc:item tid="339"/>
+		<vlc:item tid="340"/>
+		<vlc:item tid="341"/>
+		<vlc:item tid="342"/>
+		<vlc:item tid="343"/>
+		<vlc:item tid="344"/>
+		<vlc:item tid="345"/>
+		<vlc:item tid="346"/>
+		<vlc:item tid="347"/>
+		<vlc:item tid="348"/>
+		<vlc:item tid="349"/>
+		<vlc:item tid="350"/>
+		<vlc:item tid="351"/>
+		<vlc:item tid="352"/>
+		<vlc:item tid="353"/>
+		<vlc:item tid="354"/>
+		<vlc:item tid="355"/>
+		<vlc:item tid="356"/>
+		<vlc:item tid="357"/>
+		<vlc:item tid="358"/>
+		<vlc:item tid="359"/>
+		<vlc:item tid="360"/>
+		<vlc:item tid="361"/>
+		<vlc:item tid="362"/>
+		<vlc:item tid="363"/>
+		<vlc:item tid="364"/>
+		<vlc:item tid="365"/>
+		<vlc:item tid="366"/>
+		<vlc:item tid="367"/>
+		<vlc:item tid="368"/>
+		<vlc:item tid="369"/>
+		<vlc:item tid="370"/>
+		<vlc:item tid="371"/>
+		<vlc:item tid="372"/>
+		<vlc:item tid="373"/>
+		<vlc:item tid="374"/>
+		<vlc:item tid="375"/>
+		<vlc:item tid="376"/>
+		<vlc:item tid="377"/>
+		<vlc:item tid="378"/>
+		<vlc:item tid="379"/>
+		<vlc:item tid="380"/>
+		<vlc:item tid="381"/>
+		<vlc:item tid="382"/>
+		<vlc:item tid="383"/>
+		<vlc:item tid="384"/>
+	</extension>
+</playlist>
