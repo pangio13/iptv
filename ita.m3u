@@ -73,8 +73,6 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8
 https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
 #EXTINF:-1 tvg-name="Italia 2" tvg-logo="https://i.imgur.com/nq48sjO.png" tvg-id="Italia2.it",Italia 2
 https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8
-#EXTINF:-1 tvg-name="Sky TG24" tvg-logo="https://i.imgur.com/q4d3Dah.png" tvg-id="SkyTG24.it",Sky TG24
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
 #EXTINF:-1 tvg-name="DMAX" tvg-logo="https://i.imgur.com/dmEmRX7.png" tvg-id="DMAX.it",DMAX
 https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
 #EXTINF:-1 tvg-name="Mediaset Extra" tvg-logo="https://i.imgur.com/mM8lopo.png" tvg-id="MediasetExtra.it",Mediaset Extra
