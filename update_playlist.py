@@ -12,14 +12,15 @@ def clean_name(s: str) -> str:
     s = s.lower().strip()
     s = unicodedata.normalize('NFKD', s)
     s = ''.join(c for c in s if not unicodedata.combining(c))
-    s = s.replace('ⓖ', '')  # rimuove simbolo geolocalizzazione
-    s = re.sub(r'[\(\)
-
-\[\]
-
-\{\}]', '', s)  # rimuove parentesi
-    s = re.sub(r'[^a-z0-9]+', ' ', s)     # lascia solo lettere/numeri
-    s = re.sub(r'\s+', ' ', s).strip()
+    # Rimuovi simboli speciali
+    s = s.replace('ⓖ', '')
+    # Rimuovi parentesi senza regex
+    for ch in ['(', ')', '[', ']', '{', '}']:
+        s = s.replace(ch, '')
+    # Rimuovi tutto tranne lettere e numeri, sostituisci con spazio
+    s = re.sub(r'[^a-z0-9]+', ' ', s)
+    # Rimuovi spazi multipli
+    s = ' '.join(s.split())
     return s
 
 def parse_extinf(line: str):
