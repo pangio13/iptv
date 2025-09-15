@@ -12,14 +12,17 @@ def clean_name(s: str) -> str:
     s = s.lower().strip()
     s = unicodedata.normalize('NFKD', s)
     s = ''.join(c for c in s if not unicodedata.combining(c))
-    # Rimuovi simboli speciali e punteggiatura
+    # Rimuovi simboli speciali
     s = s.replace('ⓖ', '')
+    # Rimuovi parentesi tonde, quadre e graffe
     s = re.sub(r'[\(\)
 
 \[\]
 
-\{\}]', '', s)  # parentesi
-    s = re.sub(r'[^a-z0-9]+', ' ', s)     # tutto tranne lettere/numeri
+\{\}]', '', s)
+    # Rimuovi tutto tranne lettere e numeri, sostituisci con spazio
+    s = re.sub(r'[^a-z0-9]+', ' ', s)
+    # Rimuovi spazi multipli
     s = re.sub(r'\s+', ' ', s).strip()
     return s
 
@@ -73,7 +76,7 @@ for i, line in enumerate(my_lines):
 
     my_clean = clean_name(tvg_name or disp)
 
-    # Ricerca approssimata: trova il primo canale sorgente che CONTIENE il mio nome
+    # Ricerca approssimata: se il mio nome è contenuto nel nome sorgente
     match_url = None
     for src_name, src_url in src_map.items():
         if my_clean and my_clean in src_name:
