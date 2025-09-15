@@ -1,6 +1,7 @@
 import requests
 import re
 import unicodedata
+import sys
 
 SOURCE_URL = "https://raw.githubusercontent.com/Free-TV/IPTV/refs/heads/master/playlists/playlist_italy.m3u8"
 MY_PLAYLIST = "ita.m3u"
@@ -12,14 +13,10 @@ def clean_name(s: str) -> str:
     s = s.lower().strip()
     s = unicodedata.normalize('NFKD', s)
     s = ''.join(c for c in s if not unicodedata.combining(c))
-    # Rimuovi simboli speciali
-    s = s.replace('ⓖ', '')
-    # Rimuovi parentesi senza regex
+    s = s.replace('ⓖ', '')  # simbolo geolocalizzazione
     for ch in ['(', ')', '[', ']', '{', '}']:
         s = s.replace(ch, '')
-    # Rimuovi tutto tranne lettere e numeri, sostituisci con spazio
     s = re.sub(r'[^a-z0-9]+', ' ', s)
-    # Rimuovi spazi multipli
     s = ' '.join(s.split())
     return s
 
@@ -60,8 +57,39 @@ print(f"Canali indicizzati dalla sorgente: {len(src_map)}")
 with open(MY_PLAYLIST, "r", encoding="utf-8") as f:
     my_lines = f.readlines()
 
-updated, unmatched = 0, []
+# === PRE-CHECK MATCH ===
+my_names_clean = []
+for i, line in enumerate(my_lines):
+    if line.startswith("#EXTINF"):
+        tvg_name, disp = parse_extinf(line)
+        my_names_clean.append((disp or tvg_name, clean_name(tvg_name or disp)))
 
+matched = []
+unmatched = []
+for original, clean in my_names_clean:
+    found = any(clean and clean in src_name for src_name in src_map.keys())
+    if found:
+        matched.append(original)
+    else:
+        unmatched.append(original)
+
+print(f"\n=== CHECK PRE-AGGIORNAMENTO ===")
+print(f"Canali nella tua playlist: {len(my_names_clean)}")
+print(f"Match trovati: {len(matched)}")
+print(f"Senza match: {len(unmatched)}")
+
+if unmatched:
+    print("\nElenco canali senza match:")
+    for ch in unmatched:
+        print(" -", ch)
+
+# Se vuoi bloccare l'aggiornamento se non è 100%, decommenta:
+# if unmatched:
+#     print("\n⚠️ Non tutti i canali hanno match. Aggiornamento interrotto.")
+#     sys.exit(1)
+
+# === AGGIORNAMENTO ===
+updated = 0
 for i, line in enumerate(my_lines):
     if not line.startswith("#EXTINF"):
         continue
@@ -70,32 +98,23 @@ for i, line in enumerate(my_lines):
     if url_idx is None:
         continue
     current_url = my_lines[url_idx].strip()
-
     my_clean = clean_name(tvg_name or disp)
 
-    # Ricerca approssimata: se il mio nome è contenuto nel nome sorgente
     match_url = None
     for src_name, src_url in src_map.items():
         if my_clean and my_clean in src_name:
             match_url = src_url
             break
 
-    if match_url:
-        if match_url != current_url:
-            print(f"[UPDATE] {disp or tvg_name}")
-            print(f"  Vecchio: {current_url}")
-            print(f"  Nuovo : {match_url}")
-            my_lines[url_idx] = match_url + "\n"
-            updated += 1
-    else:
-        unmatched.append(disp or tvg_name)
+    if match_url and match_url != current_url:
+        print(f"[UPDATE] {disp or tvg_name}")
+        print(f"  Vecchio: {current_url}")
+        print(f"  Nuovo : {match_url}")
+        my_lines[url_idx] = match_url + "\n"
+        updated += 1
 
 # Salva
 with open(MY_PLAYLIST, "w", encoding="utf-8") as f:
     f.writelines(my_lines)
 
 print(f"\nAggiornamento completato. Canali aggiornati: {updated}")
-if unmatched:
-    print("\nSenza match:")
-    for ch in unmatched:
-        print(" -", ch)
