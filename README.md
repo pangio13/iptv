@@ -1,1 +1,1 @@
-DTT Italy
+DTT
