@@ -2,164 +2,107 @@ import requests
 import re
 import unicodedata
 
+# === CONFIG ===
 SOURCE_URL = "https://raw.githubusercontent.com/Free-TV/IPTV/refs/heads/master/playlists/playlist_italy.m3u8"
 MY_PLAYLIST = "ita.m3u"
 
-attr_re = re.compile(r'(\w+?)="(.*?)"')
-extinf_re = re.compile(r'#EXTINF[^,]*,(.*)$', re.IGNORECASE)
-
+# === FUNZIONI ===
 def normalize(s: str) -> str:
-    if s is None:
+    """Normalizza il nome canale per confronti robusti."""
+    if not s:
         return ""
-    # minuscole, rimuovi accenti, togli spazi/punteggiatura/comuni suffissi
     s = s.strip().lower()
     s = unicodedata.normalize('NFKD', s)
     s = ''.join(c for c in s if not unicodedata.combining(c))
-    # rimuovi separatori
-    s = re.sub(r'[\s\-\._]+', '', s)
-    # sostituzioni comuni
+    # Rimuovi simboli speciali
+    s = s.replace('ⓖ', '')  # G cerchiata
+    s = re.sub(r'[^\w]+', '', s)  # rimuove spazi, punteggiatura, simboli
+    # Sostituzioni comuni
     s = s.replace('raiuno', 'rai1').replace('raidue', 'rai2').replace('raitre', 'rai3')
-    s = s.replace('retequattro', 'rete4').replace('canale5', 'canale5')
-    s = s.replace('italiauno', 'italia1').replace('italia due', 'italia2').replace('italiadue', 'italia2')
-    s = s.replace('la7hd', 'la7').replace('la7dhd', 'la7d').replace('wbn', 'warner')  # cautela
-    s = s.replace('topcrime', 'topcrime').replace('realtime', 'realtime').replace('wbtv', 'warnertv')
-    s = s.replace('rtl1025', 'rtl1025').replace('rtl102.5', 'rtl1025')
-    s = s.replace('nove', 'nove').replace('boing', 'boing')
-    s = s.replace('foodnetwork', 'foodnetwork').replace('focus', 'focus')
-    s = s.replace('giallo', 'giallo').replace('cielo', 'cielo')
-    s = s.replace('cartoonito', 'cartoonito').replace('k2', 'k2')
-    s = s.replace('cine34', 'cine34').replace('la5', 'la5')
-    s = s.replace('raiyoyo', 'raiyoyo').replace('raigulp', 'raigulp')
-    s = s.replace('tv8', 'tv8').replace('twenty', '20').replace('20mediaset', '20')
-    # rimuovi suffissi generici
-    s = s.replace('hd', '').replace('sd', '').replace('tv', '')
+    s = s.replace('retequattro', 'rete4').replace('italiauno', 'italia1')
+    s = s.replace('italiadue', 'italia2').replace('venti', '20')
     return s
 
-def parse_extinf_line(line: str):
-    # Estrai attributi e display name
-    attrs = dict(attr_re.findall(line))
-    m = extinf_re.search(line)
-    display_name = m.group(1).strip() if m else ""
-    tvg_id = attrs.get('tvg-id') or attrs.get('tvg_id')
-    tvg_name = attrs.get('tvg-name') or attrs.get('tvg_name')
-    return tvg_id, tvg_name, display_name
+def parse_extinf(line: str):
+    """Estrae tvg-id, tvg-name e nome visualizzato da una riga EXTINF."""
+    attrs = dict(re.findall(r'(\w+?)="(.*?)"', line))
+    display_name = re.search(r',(.+)$', line)
+    return (
+        attrs.get('tvg-id') or attrs.get('tvg_id'),
+        attrs.get('tvg-name') or attrs.get('tvg_name'),
+        display_name.group(1).strip() if display_name else ""
+    )
 
-def next_url_index(lines, start_idx):
-    # Trova il primo URL http(s) dopo start_idx
+def find_next_url(lines, start_idx):
+    """Trova il primo URL http(s) dopo start_idx."""
     for j in range(start_idx + 1, len(lines)):
-        ln = lines[j].strip()
-        if ln.startswith("#"):  # commento/opzione
-            continue
-        if ln.startswith("http"):
+        if lines[j].startswith("http"):
             return j
-        if ln == "":
-            continue
-        # Se troviamo altro testo non http, continuiamo a cercare ma non saltiamo fuori
     return None
 
-print("=== Scarico playlist sorgente da Free-TV ===")
-src_text = requests.get(SOURCE_URL, timeout=30).text
-src_lines = src_text.splitlines()
+# === SCARICA PLAYLIST SORGENTE ===
+print("Scarico playlist sorgente...")
+src_text = requests.get(SOURCE_URL, timeout=30).text.splitlines()
 
-# Indici multipli per massimizzare il match
-src_by_tvgid = {}
-src_by_tvgn = {}
-src_by_name = {}
-src_by_norm = {}
-
-for i, line in enumerate(src_lines):
+# Indicizza canali sorgente
+src_by_tvgid, src_by_tvgn, src_by_name, src_by_norm = {}, {}, {}, {}
+for i, line in enumerate(src_text):
     if not line.startswith("#EXTINF"):
         continue
-    tvg_id, tvg_name, disp = parse_extinf_line(line)
-    url_idx = i + 1 if i + 1 < len(src_lines) else None
-    if url_idx is None or not src_lines[url_idx].startswith("http"):
-        # fallback: cerca URL successivo (alcune playlist hanno righe intermedie)
-        for j in range(i + 1, min(i + 6, len(src_lines))):
-            if src_lines[j].startswith("http"):
-                url_idx = j
-                break
+    tvg_id, tvg_name, disp = parse_extinf(line)
+    url_idx = find_next_url(src_text, i)
     if url_idx is None:
         continue
-    url = src_lines[url_idx].strip()
+    url = src_text[url_idx].strip()
+    if tvg_id: src_by_tvgid[tvg_id] = url
+    if tvg_name: src_by_tvgn[tvg_name] = url
+    if disp: src_by_name[disp] = url
+    for key in {normalize(tvg_id), normalize(tvg_name), normalize(disp)}:
+        if key: src_by_norm[key] = url
 
-    if tvg_id:
-        src_by_tvgid[tvg_id.strip()] = url
-    if tvg_name:
-        src_by_tvgn[tvg_name.strip()] = url
-    if disp:
-        src_by_name[disp.strip()] = url
+print(f"Sorgente indicizzata: {len(src_by_tvgid)} tvg-id, {len(src_by_tvgn)} tvg-name, {len(src_by_name)} nomi, {len(src_by_norm)} normalizzati.")
 
-    # mappa normalizzata (priorità a display, poi tvg-name)
-    key_norms = set()
-    if disp: key_norms.add(normalize(disp))
-    if tvg_name: key_norms.add(normalize(tvg_name))
-    if tvg_id: key_norms.add(normalize(tvg_id))
-    for k in key_norms:
-        if k:
-            src_by_norm[k] = url
-
-print(f"Sorgente indicizzata: {len(src_by_tvgid)} by tvg-id, {len(src_by_tvgn)} by tvg-name, {len(src_by_name)} by name, {len(src_by_norm)} by norm.")
-
-# Leggi la tua playlist e applica sostituzioni
+# === LEGGI E AGGIORNA LA TUA PLAYLIST ===
 with open(MY_PLAYLIST, "r", encoding="utf-8") as f:
     my_lines = f.readlines()
 
-updated = 0
-unmatched = []
+updated, unmatched = 0, []
 
-print("\n=== Inizio matching e aggiornamento ===")
 for i, line in enumerate(my_lines):
     if not line.startswith("#EXTINF"):
         continue
-
-    tvg_id, tvg_name, disp = parse_extinf_line(line)
-    url_idx = next_url_index(my_lines, i)
+    tvg_id, tvg_name, disp = parse_extinf(line)
+    url_idx = find_next_url(my_lines, i)
     if url_idx is None:
-        # Nessun URL dopo il blocco: salta ma segnala
-        name_for_log = disp or tvg_name or tvg_id or "<sconosciuto>"
-        print(f"[WARN] Nessun URL trovato dopo EXTINF per: {name_for_log}")
         continue
-
     current_url = my_lines[url_idx].strip()
 
     # Matching a priorità
-    new_url = None
-    # 1) tvg-id
-    if not new_url and tvg_id and tvg_id in src_by_tvgid:
-        new_url = src_by_tvgid[tvg_id]
-    # 2) tvg-name
-    if not new_url and tvg_name and tvg_name in src_by_tvgn:
-        new_url = src_by_tvgn[tvg_name]
-    # 3) display name
-    if not new_url and disp and disp in src_by_name:
-        new_url = src_by_name[disp]
-    # 4) normalizzato
-    if not new_url:
-        candidates = [disp, tvg_name, tvg_id]
-        for c in candidates:
-            if not c:
-                continue
-            k = normalize(c)
-            if k and k in src_by_norm:
-                new_url = src_by_norm[k]
-                break
-
-    name_for_log = disp or tvg_name or tvg_id or "<sconosciuto>"
+    new_url = (
+        src_by_tvgid.get(tvg_id)
+        or src_by_tvgn.get(tvg_name)
+        or src_by_name.get(disp)
+        or src_by_norm.get(normalize(disp))
+        or src_by_norm.get(normalize(tvg_name))
+        or src_by_norm.get(normalize(tvg_id))
+    )
 
     if new_url:
         if new_url != current_url:
-            print(f"[UPDATE] {name_for_log}\n  Vecchio: {current_url}\n  Nuovo : {new_url}")
+            print(f"[UPDATE] {disp or tvg_name or tvg_id}")
+            print(f"  Vecchio: {current_url}")
+            print(f"  Nuovo : {new_url}")
             my_lines[url_idx] = new_url + "\n"
             updated += 1
     else:
-        unmatched.append(name_for_log)
+        unmatched.append(disp or tvg_name or tvg_id)
 
-# Salva sempre (il workflow farà commit solo se cambia)
+# === SALVA ===
 with open(MY_PLAYLIST, "w", encoding="utf-8") as f:
     f.writelines(my_lines)
 
-print(f"\nCompletato. Canali aggiornati: {updated}")
+print(f"\nAggiornamento completato. Canali aggiornati: {updated}")
 if unmatched:
-    print("\nSenza match (controlla differenze di naming o assenza in Free-TV):")
+    print("\nSenza match:")
     for ch in unmatched:
         print(" -", ch)
