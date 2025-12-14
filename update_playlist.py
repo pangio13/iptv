@@ -13,7 +13,7 @@ def clean_name(s: str) -> str:
     s = s.lower().strip()
     s = unicodedata.normalize('NFKD', s)
     s = ''.join(c for c in s if not unicodedata.combining(c))
-    s = s.replace('ⓖ', '')  # simbolo geolocalizzazione
+    s = s.replace('Ⓖ', '')  # simbolo geolocalizzazione
     for ch in ['(', ')', '[', ']', '{', '}']:
         s = s.replace(ch, '')
     s = re.sub(r'[^a-z0-9]+', ' ', s)
