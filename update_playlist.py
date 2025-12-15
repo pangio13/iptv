@@ -3,7 +3,7 @@ import re
 import unicodedata
 import sys
 
-SOURCE_URL = "https://raw.githubusercontent.com/sfiorini/IPTV-Italy/main/iptvitaly.m3u"
+SOURCE_URL = "https://raw.githubusercontent.com/Free-TV/IPTV/refs/heads/master/playlists/playlist_italy.m3u8"
 MY_PLAYLIST = "ita.m3u"
 
 def clean_name(s: str) -> str:
