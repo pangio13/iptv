@@ -10,7 +10,9 @@ MY_PLAYLIST = "ita.m3u"
 EXCLUDE_LIST = ["tv8", "tv 8"] 
 
 def clean_name(s: str) -> str:
-    if not s: return ""
+    """Normalizza e pulisce il nome canale per confronti parziali."""
+    if not s:
+        return ""
     s = s.lower().strip()
     s = unicodedata.normalize('NFKD', s)
     s = ''.join(c for c in s if not unicodedata.combining(c))
@@ -22,6 +24,7 @@ def clean_name(s: str) -> str:
     return s
 
 def parse_extinf(line: str):
+    """Estrae tvg-name e nome visualizzato."""
     attrs = dict(re.findall(r'(\w+?)="(.*?)"', line))
     # Il tvg-id viene ignorato qui, prendiamo solo il nome
     tvg_name = attrs.get('tvg-name') or attrs.get('tvg_name')
@@ -29,11 +32,78 @@ def parse_extinf(line: str):
     return tvg_name, display_name.group(1).strip() if display_name else ""
 
 def find_next_url(lines, start_idx):
+    """Trova il primo URL http(s) dopo start_idx."""
     for j in range(start_idx + 1, len(lines)):
         if lines[j].startswith("http"):
             return j
     return None
 
+print("Scarico playlist sorgente...")
+try:
+    src_lines = requests.get(SOURCE_URL, timeout=30).text.splitlines()
+except Exception as e:
+    print(f"Errore download: {e}")
+    sys.exit(1)
+
+src_map = {}
+for i, line in enumerate(src_lines):
+    if not line.startswith("#EXTINF"):
+        continue
+    tvg_name, disp = parse_extinf(line)
+    url_idx = find_next_url(src_lines, i)
+    if url_idx is None:
+        continue
+    url = src_lines[url_idx].strip()
+    name_clean = clean_name(tvg_name or disp)
+    if name_clean:
+        src_map[name_clean] = url
+
+print(f"Canali indicizzati dalla sorgente: {len(src_map)}")
+
+# Leggi la tua playlist
+try:
+    with open(MY_PLAYLIST, "r", encoding="utf-8") as f:
+        my_lines = f.readlines()
+except FileNotFoundError:
+    print(f"File {MY_PLAYLIST} non trovato.")
+    sys.exit(1)
+
+updated = 0
+skipped = 0
+
+print("\n=== INIZIO ELABORAZIONE ===")
+
+for i, line in enumerate(my_lines):
+    if not line.startswith("#EXTINF"):
+        continue
+    
+    tvg_name, disp = parse_extinf(line)
+    url_idx = find_next_url(my_lines, i)
+    
+    if url_idx is None:
+        continue
+        
+    current_url = my_lines[url_idx].strip()
+    # Qui vediamo come lo script "vede" il nome del tuo canale
+    my_clean = clean_name(tvg_name or disp) 
+
+    # --- CONTROLLO SICUREZZA ---
+    is_excluded = False
+    for ex in EXCLUDE_LIST:
+        if ex in my_clean:
+            is_excluded = True
+            print(f"⚠️  ESCLUSIONE ATTIVATA: Trovato '{ex}' in '{my_clean}' ({disp})")
+            print(f"   -> Link mantenuto: {current_url[:40]}...")
+            skipped += 1
+            break
+    
+    if is_excluded:
+        continue
+    # ---------------------------
+
+    match_url = None
+    for src_name, src_url in src_map.items():
+        if my_clean and my_clean in src_name:
 print("Scarico playlist sorgente...")
 try:
     src_lines = requests.get(SOURCE_URL, timeout=30).text.splitlines()
