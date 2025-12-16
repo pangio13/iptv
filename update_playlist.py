@@ -9,7 +9,7 @@ MY_PLAYLIST = "ita.m3u"
 
 # AGGIUNTO: "cielo" alla lista di esclusione
 # Se il nome pulito contiene queste parole, il link non viene toccato.
-EXCLUDE_LIST = ["tv8", "la7", "cielo"] 
+EXCLUDE_LIST = ["tv8"] 
 # ----------------------
 
 def clean_name(s: str) -> str:
