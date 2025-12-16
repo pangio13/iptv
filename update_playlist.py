@@ -6,8 +6,10 @@ import sys
 # --- CONFIGURAZIONE ---
 SOURCE_URL = "https://raw.githubusercontent.com/Free-TV/IPTV/refs/heads/master/playlists/playlist_italy.m3u8"
 MY_PLAYLIST = "ita.m3u"
-# Canali da escludere (minuscolo). Se il nome pulito contiene queste parole, il link non viene toccato.
-EXCLUDE_LIST = ["tv8", "tv 8"] 
+
+# AGGIUNTO: "cielo" alla lista di esclusione
+# Se il nome pulito contiene queste parole, il link non viene toccato.
+EXCLUDE_LIST = ["tv8", "tv 8", "cielo"] 
 # ----------------------
 
 def clean_name(s: str) -> str:
@@ -135,7 +137,7 @@ for i, line in enumerate(my_lines):
         missing_list.append(disp or tvg_name)
 
 print(f"Canali totali nella tua playlist: {stats_total}")
-print(f"Esclusi manualmente (es. TV8): {stats_excluded}")
+print(f"Esclusi manualmente (TV8, Cielo, ecc.): {stats_excluded}")
 print(f"Trovati nella sorgente: {stats_found}")
 print(f"NON trovati nella sorgente: {stats_missing}")
 
