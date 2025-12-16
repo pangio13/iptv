@@ -7,9 +7,12 @@ import sys
 SOURCE_URL = "https://raw.githubusercontent.com/Free-TV/IPTV/refs/heads/master/playlists/playlist_italy.m3u8"
 MY_PLAYLIST = "ita.m3u"
 
-# AGGIUNTO: "cielo" alla lista di esclusione
+# AGGIUNTO: Canali da escludere dall'aggiornamento automatico
 # Se il nome pulito contiene queste parole, il link non viene toccato.
-EXCLUDE_LIST = ["la7","tv8","cielo"] 
+EXCLUDE_LIST = ["la7", "tv8", "cielo"] 
+
+# Stringa User-Agent da ri-applicare se il link viene aggiornato (Chrome Desktop)
+CUSTOM_UA_SUFFIX = "|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 # ----------------------
 
 def clean_name(s: str) -> str:
@@ -52,11 +55,36 @@ def find_match_in_map(clean_name_target, source_map):
     # 1. Tentativo esatto
     if clean_name_target in source_map:
         return source_map[clean_name_target]
-    # 2. Tentativo parziale (lento ma utile per varianti)
+    # 2. Tentativo parziale
     for src_k, src_u in source_map.items():
         if src_k and (clean_name_target in src_k or src_k in clean_name_target):
             return src_u
     return None
+
+def apply_user_agent_logic(url):
+    """
+    Se aggiorniamo un link, decide se dobbiamo ri-appendere lo User-Agent.
+    """
+    # 1. Se è un link PHP (MyTivu) o Rai (Mediapolis), NON aggiungere nulla
+    if ".php" in url or "mediapolis.rai.it" in url:
+        return url
+    
+    # 2. Se ha già un User-Agent, non aggiungerlo due volte
+    if "|User-Agent=" in url:
+        return url
+
+    # 3. Domini che necessitano dell'User-Agent per funzionare bene
+    domains_needing_ua = [
+        "mediaset.net",    # Mediaset (live02 etc)
+        "cloudfront.net",  # Discovery / La7
+        "akamaized.net",   # Sky / Vari
+        "land3.se"         # Cielo backup
+    ]
+    
+    if any(d in url for d in domains_needing_ua):
+        return url + CUSTOM_UA_SUFFIX
+        
+    return url
 
 # ==========================================
 # 1. SCARICAMENTO E INDICIZZAZIONE SORGENTE
@@ -80,6 +108,11 @@ for i, line in enumerate(src_lines):
         continue
     
     url = src_lines[url_idx].strip()
+    
+    # PULIZIA: Rimuoviamo eventuali UA dalla sorgente per indicizzare solo l'URL puro
+    if "|" in url:
+        url = url.split("|")[0]
+        
     # Usa sia tvg-name che display name per creare chiavi di ricerca
     keys = set()
     if tvg_name: keys.add(clean_name(tvg_name))
@@ -137,7 +170,7 @@ for i, line in enumerate(my_lines):
         missing_list.append(disp or tvg_name)
 
 print(f"Canali totali nella tua playlist: {stats_total}")
-print(f"Esclusi manualmente (TV8, Cielo, ecc.): {stats_excluded}")
+print(f"Esclusi manualmente ({', '.join(EXCLUDE_LIST)}): {stats_excluded}")
 print(f"Trovati nella sorgente: {stats_found}")
 print(f"NON trovati nella sorgente: {stats_missing}")
 
@@ -163,7 +196,10 @@ for i, line in enumerate(my_lines):
     if url_idx is None:
         continue
 
-    current_url = my_lines[url_idx].strip()
+    current_full_url = my_lines[url_idx].strip()
+    # Separiamo l'URL base dall'UA per il confronto
+    current_base_url = current_full_url.split("|")[0]
+    
     my_clean = clean_name(tvg_name or disp)
 
     # -- CONTROLLO ESCLUSIONE --
@@ -178,14 +214,19 @@ for i, line in enumerate(my_lines):
     if is_excluded:
         continue
 
-    # Cerca nuovo URL
-    match_url = find_match_in_map(my_clean, src_map)
+    # Cerca nuovo URL (questo è l'URL puro dalla sorgente)
+    new_base_url = find_match_in_map(my_clean, src_map)
     
-    # Applica aggiornamento se url diverso
-    if match_url and match_url != current_url:
-        print(f"[AGGIORNATO] {disp}")
-        my_lines[url_idx] = match_url + "\n"
-        updated_count += 1
+    if new_base_url:
+        # Confrontiamo solo gli URL base (senza UA)
+        if new_base_url != current_base_url:
+            print(f"[AGGIORNATO] {disp}")
+            
+            # Applichiamo la logica UA al nuovo link trovato
+            final_new_url = apply_user_agent_logic(new_base_url)
+            
+            my_lines[url_idx] = final_new_url + "\n"
+            updated_count += 1
 
 # ==========================================
 # 5. SALVATAGGIO
