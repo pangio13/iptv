@@ -38,12 +38,27 @@ def find_next_url(lines, start_idx):
         line = lines[j].strip()
         if line.startswith("http"):
             return j
-        # Se incontriamo un altro EXTINF prima dell'URL, qualcosa non va (o fine blocco)
+        # Se incontriamo un altro EXTINF prima dell'URL, stop
         if line.startswith("#EXTINF"):
             return None
     return None
 
-# 1. Scarica la playlist sorgente
+def find_match_in_map(clean_name_target, source_map):
+    """Cerca match esatto o parziale nella mappa."""
+    if not clean_name_target:
+        return None
+    # 1. Tentativo esatto
+    if clean_name_target in source_map:
+        return source_map[clean_name_target]
+    # 2. Tentativo parziale (lento ma utile per varianti)
+    for src_k, src_u in source_map.items():
+        if src_k and (clean_name_target in src_k or src_k in clean_name_target):
+            return src_u
+    return None
+
+# ==========================================
+# 1. SCARICAMENTO E INDICIZZAZIONE SORGENTE
+# ==========================================
 print("Scarico playlist sorgente...")
 try:
     resp = requests.get(SOURCE_URL, timeout=30)
@@ -53,7 +68,6 @@ except Exception as e:
     print(f"Errore download sorgente: {e}")
     sys.exit(1)
 
-# 2. Mappa i canali sorgente {nome_pulito: url}
 src_map = {}
 for i, line in enumerate(src_lines):
     if not line.startswith("#EXTINF"):
@@ -74,7 +88,9 @@ for i, line in enumerate(src_lines):
 
 print(f"Canali trovati nella sorgente: {len(src_map)}")
 
-# 3. Leggi la tua playlist locale
+# ==========================================
+# 2. LETTURA PLAYLIST LOCALE
+# ==========================================
 try:
     with open(MY_PLAYLIST, "r", encoding="utf-8") as f:
         my_lines = f.readlines()
@@ -82,10 +98,58 @@ except FileNotFoundError:
     print(f"Errore: File {MY_PLAYLIST} non trovato.")
     sys.exit(1)
 
-# 4. Aggiorna i link
-updated = 0
-skipped = 0
-print("\n=== AVVIO CONTROLLO CANALI ===")
+# ==========================================
+# 3. REPORT PRELIMINARE (PRE-CHECK)
+# ==========================================
+print("\n=== REPORT STATO CANALI ===")
+stats_total = 0
+stats_excluded = 0
+stats_found = 0
+stats_missing = 0
+missing_list = []
+
+for i, line in enumerate(my_lines):
+    if not line.startswith("#EXTINF"):
+        continue
+    
+    stats_total += 1
+    tvg_name, disp = parse_extinf(line)
+    my_clean = clean_name(tvg_name or disp)
+
+    # Check Esclusione
+    is_excluded = False
+    for ex in EXCLUDE_LIST:
+        if ex in my_clean:
+            is_excluded = True
+            break
+    
+    if is_excluded:
+        stats_excluded += 1
+        continue
+
+    # Check Presenza
+    if find_match_in_map(my_clean, src_map):
+        stats_found += 1
+    else:
+        stats_missing += 1
+        missing_list.append(disp or tvg_name)
+
+print(f"Canali totali nella tua playlist: {stats_total}")
+print(f"Esclusi manualmente (es. TV8): {stats_excluded}")
+print(f"Trovati nella sorgente: {stats_found}")
+print(f"NON trovati nella sorgente: {stats_missing}")
+
+if missing_list:
+    print(" -> Canali senza match (non verranno aggiornati):")
+    for m in missing_list:
+        print(f"    - {m}")
+
+# ==========================================
+# 4. AGGIORNAMENTO LINK
+# ==========================================
+print("\n=== AVVIO AGGIORNAMENTO ===")
+updated_count = 0
+skipped_count = 0
 
 for i, line in enumerate(my_lines):
     if not line.startswith("#EXTINF"):
@@ -100,43 +164,32 @@ for i, line in enumerate(my_lines):
     current_url = my_lines[url_idx].strip()
     my_clean = clean_name(tvg_name or disp)
 
-    # -- CONTROLLO ESCLUSIONE (TV8) --
+    # -- CONTROLLO ESCLUSIONE --
     is_excluded = False
     for ex in EXCLUDE_LIST:
         if ex in my_clean:
             is_excluded = True
-            print(f"⚠️  ESCLUSO: '{disp}' (trovato '{ex}') -> Link manuale mantenuto.")
-            skipped += 1
+            print(f"⚠️  ESCLUSO: '{disp}' -> Link manuale mantenuto.")
+            skipped_count += 1
             break
     
     if is_excluded:
         continue
-    # --------------------------------
 
-    # Cerca match nella mappa sorgente
-    match_url = None
-    # Prima prova col nome pulito esatto
-    if my_clean in src_map:
-        match_url = src_map[my_clean]
-    else:
-        # Se non trova match esatto, cerca parziale (più lento ma più sicuro)
-        for src_k, src_u in src_map.items():
-            if my_clean and (my_clean in src_k or src_k in my_clean):
-                match_url = src_u
-                break
+    # Cerca nuovo URL
+    match_url = find_match_in_map(my_clean, src_map)
     
     # Applica aggiornamento se url diverso
     if match_url and match_url != current_url:
         print(f"[AGGIORNATO] {disp}")
-        # print(f"   OLD: {current_url}")
-        # print(f"   NEW: {match_url}")
         my_lines[url_idx] = match_url + "\n"
-        updated += 1
+        updated_count += 1
 
-# 5. Salva il file
+# ==========================================
+# 5. SALVATAGGIO
+# ==========================================
 with open(MY_PLAYLIST, "w", encoding="utf-8") as f:
     f.writelines(my_lines)
 
 print(f"\nOperazione completata.")
-print(f"Canali aggiornati: {updated}")
-print(f"Canali esclusi (es. TV8): {skipped}")
+print(f"Link aggiornati effettivamente: {updated_count}")
