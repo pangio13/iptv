@@ -9,7 +9,7 @@ MY_PLAYLIST = "ita.m3u"
 
 # AGGIUNTO: Canali da escludere dall'aggiornamento automatico
 # Se il nome pulito contiene queste parole, il link non viene toccato.
-#EXCLUDE_LIST = ["la7", "tv8", "cielo"] 
+EXCLUDE_LIST = [""] 
 
 # Stringa User-Agent da ri-applicare se il link viene aggiornato (Chrome Desktop)
 CUSTOM_UA_SUFFIX = "|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
