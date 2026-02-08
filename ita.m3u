@@ -105,7 +105,7 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forc
 #EXTINF:-1 tvg-name="Rai Premium" tvg-logo="https://i.imgur.com/RKI4nFy.png" tvg-id="RaiPremium.it",Rai Premium
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=rainet/4.0.5
 
-#EXTINF:-1 tvg-name="Motor Trend" tvg-logo="https://i.imgur.com/ipj2H0n.png" tvg-id="MotorTrend.it",Motor Trend
+#EXTINF:-1 tvg-name="Discovery Turbo" tvg-logo="http://epg-guide.com/icn/icons/discoveryturbo.png" tvg-id="DiscoveryTurbo.it",Discovery Turbo
 https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-name="RTL 102.5" tvg-logo="https://i.imgur.com/KdissvS.png" tvg-id="RTL1025TV.it",RTL 102.5
