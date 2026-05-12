@@ -72,37 +72,37 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8|User-A
 #EXTINF:-1 tvg-name="Nove" tvg-logo="https://i.imgur.com/Hp723RU.png" tvg-id="Nove.it",Nove
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://Dyniptvita.giovannipanunzio.workers.dev/license/nove
-https://Dyniptvita.giovannipanunzio.workers.dev/manifest/nove
+https://Dyniptvita.giovannipanunzio.workers.dev/manifest/nove|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://zappr.stream/
 
 #EXTINF:-1 tvg-name="Real Time" tvg-logo="https://i.imgur.com/9dcTYg1.png" tvg-id="RealTime.it",Real Time
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://Dyniptvita.giovannipanunzio.workers.dev/license/realtime
-https://Dyniptvita.giovannipanunzio.workers.dev/manifest/realtime
+https://Dyniptvita.giovannipanunzio.workers.dev/manifest/realtime|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://zappr.stream/
 
 #EXTINF:-1 tvg-name="DMAX" tvg-logo="https://i.imgur.com/dmEmRX7.png" tvg-id="DMAX.it",DMAX
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://Dyniptvita.giovannipanunzio.workers.dev/license/dmax
-https://Dyniptvita.giovannipanunzio.workers.dev/manifest/dmax
+https://Dyniptvita.giovannipanunzio.workers.dev/manifest/dmax|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://zappr.stream/
 
 #EXTINF:-1 tvg-name="Giallo" tvg-logo="https://i.imgur.com/0PIRwZS.png" tvg-id="Giallo.it",Giallo
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://Dyniptvita.giovannipanunzio.workers.dev/license/giallo
-https://Dyniptvita.giovannipanunzio.workers.dev/manifest/giallo
+https://Dyniptvita.giovannipanunzio.workers.dev/manifest/giallo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://zappr.stream/
 
 #EXTINF:-1 tvg-name="Food Network" tvg-logo="https://i.imgur.com/i60OYr9.png" tvg-id="FoodNetwork.it",Food Network
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://Dyniptvita.giovannipanunzio.workers.dev/license/foodnetwork
-https://Dyniptvita.giovannipanunzio.workers.dev/manifest/foodnetwork
+https://Dyniptvita.giovannipanunzio.workers.dev/manifest/foodnetwork|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://zappr.stream/
 
 #EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://i.imgur.com/5IxIFJ0.png" tvg-id="Discovery.it",Discovery Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://Dyniptvita.giovannipanunzio.workers.dev/license/discovery
-https://Dyniptvita.giovannipanunzio.workers.dev/manifest/discovery
+https://Dyniptvita.giovannipanunzio.workers.dev/manifest/discovery|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://zappr.stream/
 
 #EXTINF:-1 tvg-name="Motor Trend" tvg-logo="https://i.imgur.com/ipj2H0n.png" tvg-id="DiscoveryTurbo.it",Motor Trend
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://Dyniptvita.giovannipanunzio.workers.dev/license/motortrend
-https://Dyniptvita.giovannipanunzio.workers.dev/manifest/motortrend
+https://Dyniptvita.giovannipanunzio.workers.dev/manifest/motortrend|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://zappr.stream/
 
 ## --- ALTRI CANALI ---
 #EXTINF:-1 tvg-name="La7" tvg-logo="https://i.imgur.com/F90mpSa.png" tvg-id="La7.it",La7
