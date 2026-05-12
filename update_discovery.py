@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import sys  # <--- AGGIUNTO: Necessario per exit(1)
 
 SOURCE_URL = "https://raw.githubusercontent.com/ZapprTV/channels/refs/heads/main/it/dtt/national.json"
 OUTPUT_FILE = "discovery_db.json"
@@ -12,7 +13,7 @@ def update_db():
         response.raise_for_status()
         raw_data = response.json()
         
-        # Gestione flessibile: capisce se riceve una lista [...] o un oggetto {"channels": [...]}
+        # Gestione flessibile della struttura JSON
         channels = []
         if isinstance(raw_data, list):
             channels = raw_data
@@ -23,12 +24,13 @@ def update_db():
         db = {}
         
         for ch in channels:
-            # Verifica che 'ch' sia un dizionario prima di usare .get()
             if not isinstance(ch, dict):
                 continue
                 
             name = ch.get("name", "")
+            # Match case-insensitive e filtro per Clearkey
             if name.upper() in [t.upper() for t in targets] and ch.get("license") == "clearkey":
+                # Normalizzazione ID per il Worker (es: "Real Time" -> "realtime")
                 ch_id = name.lower().replace(" ", "")
                 db[ch_id] = {
                     "url": ch.get("url"),
@@ -45,8 +47,7 @@ def update_db():
         
     except Exception as e:
         print(f"Errore durante l'esecuzione: {e}")
-        # Forza l'uscita con errore per fermare la GitHub Action
-        exit(1)
+        sys.exit(1) #
 
 if __name__ == "__main__":
     update_db()
