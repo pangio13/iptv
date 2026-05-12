@@ -1,23 +1,32 @@
 name: Discovery DRM Sync
 on:
   schedule:
-    - cron: '0 */12 * * *'
-  workflow_dispatch:
+    - cron: '0 */12 * * *' # Esecuzione ogni 12 ore
+  workflow_dispatch:      # Permette l'avvio manuale per i test
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write     # INDISPENSABILE: Permette alla Action di scrivere nel repository
     steps:
       - uses: actions/checkout@v4
+      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - run: pip install requests
-      - run: python update_discovery.py
-      - name: Commit changes
+          
+      - name: Installa dipendenze
+        run: pip install requests
+        
+      - name: Esegui estrazione DRM
+        run: python update_discovery.py
+        
+      - name: Commit e Push
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add discovery_db.json
+          # Il comando commit non fallirà se non ci sono cambiamenti
           git commit -m "Sync Discovery DRM data" || exit 0
           git push
