@@ -72,7 +72,7 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8|User-A
 #EXTINF:-1 tvg-name="Nove" tvg-logo="https://i.imgur.com/Hp723RU.png" tvg-id="Nove.it",Nove
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://Dyniptvita.giovannipanunzio.workers.dev/license/nove
-https://Dyniptvita.giovannipanunzio.workers.dev/manifest/nove|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://zappr.stream/
+https://Dyniptvita.giovannipanunzio.workers.dev/manifest/nove|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36&Referer=https://zappr.stream/&Origin=https://zappr.stream
 
 #EXTINF:-1 tvg-name="Real Time" tvg-logo="https://i.imgur.com/9dcTYg1.png" tvg-id="RealTime.it",Real Time
 #KODIPROP:inputstream.adaptive.license_type=clearkey
